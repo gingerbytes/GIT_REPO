@@ -81,6 +81,10 @@ venv howto
 python -m venv <name>
 source ./name/bin/activate
 
+inside the venv terminal, type deactivate to exit the venv
+
+pip list > requirements.txt
+
 ==============
 HOW TO GITHub VSCODE
 1. on pc, install git, ex. Git-2.27.0-64-bit
