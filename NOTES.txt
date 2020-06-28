@@ -12,12 +12,12 @@ This is possible, though as Paul mentions, not foolproof:
     Test whether the document operates the way you want. You should be able to edit in the areas you had selected and nowhere else.
 
 
-===========
+==============
 
 ONLINE SIGNATURE
 https://www.docsketch.com/online-signature/draw/?fbclid=IwAR0e7x0Maimw5GIE3Qtl0u0W5f51B2nyUYO7XiJ4QDuVP9JEjixSWqmHGVw
 
-===========
+==============
 
 HowTO Make Python Script Executable
 https://datatofish.com/executable-pyinstaller/?fbclid=IwAR1vcBsVuBBMKm87RMp9gd-kMDp-DM9XQDE9Lb9etOprbPrN7PVyhK_nkAo
@@ -26,7 +26,7 @@ pip install pyisntaller
 pyinstaller --onefile filename.py
 
 pyinstaller --hidden-import=pkg_resources.py2_warn --onefile example.py
-
+>pyinstaller.py --noconsole yourscript.py
 --
 
 cx_Freeze
@@ -54,7 +54,6 @@ https://stackabuse.com/working-with-pdfs-in-python-adding-images-and-watermarks/
 Adding image to pdf
 pip install PyMuPDF
 
-
 ==============
 Having problems installing Fitz?
 pip install fitz
@@ -77,9 +76,11 @@ pip list > requirements.txt
 pip install -r requirements.txt
 
 ==============
-venv howto
+HowTo venv in VS Code
 python -m venv <name>
-source ./name/bin/activate
+source ./<name>/bin/activate   <-- for linux
+.\<name>\Scripts\activate   <-- for windows
+in vs code, it will show on the explorer list.
 
 ==============
 HOW TO GITHub VSCODE
