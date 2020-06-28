@@ -82,6 +82,10 @@ source ./<name>/bin/activate   <-- for linux
 .\<name>\Scripts\activate   <-- for windows
 in vs code, it will show on the explorer list.
 
+inside the venv terminal, type deactivate to exit the venv
+
+pip list > requirements.txt
+
 ==============
 HOW TO GITHub VSCODE
 1. on pc, install git, ex. Git-2.27.0-64-bit
