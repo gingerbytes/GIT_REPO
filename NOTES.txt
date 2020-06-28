@@ -98,3 +98,12 @@ HOW TO GITHub VSCODE
 5. on vs code Source Control, input a commit message ex. "1st commit" then click the check button.
 6  on vs code Source Control, click ... then push, this will upload the files to the github repositry.
 7. on vscode Source Control, lower left, you can see on which branch you are editing ex. "master".
+
+==============
+
+HowTo Delete Folder in Master in Github
+
+git checkout master (or you can use pull)
+git rm -r 'folder name' (use '' for folders with spaces in name)
+git commit -m "Remove folder name"
+git push origin master
