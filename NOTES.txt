@@ -26,7 +26,7 @@ pip install pyisntaller
 pyinstaller --onefile filename.py
 
 pyinstaller --hidden-import=pkg_resources.py2_warn --onefile example.py
-
+>pyinstaller.py --noconsole yourscript.py
 --
 
 cx_Freeze
@@ -78,7 +78,9 @@ pip install -r requirements.txt
 ==============
 HowTo venv in VS Code
 python -m venv <name>
-source ./name/bin/activate
+source ./<name>/bin/activate   <-- for linux
+.\<name>\Scripts\activate   <-- for windows
+in vs code, it will show on the explorer list.
 
 ==============
 HOW TO GITHub VSCODE
