@@ -1,0 +1,94 @@
+﻿python HOW TO LOCK WORD DOC SECTION:
+
+https://answers.microsoft.com/en-us/msoffice/forum/all/lock-the-2nd-page-in-word-while-making-chages-in/50f5f214-3e7f-4f6f-b6e3-76696f5742a4
+
+This is possible, though as Paul mentions, not foolproof:
+
+    In Word, select the content on Page 1 that you want to be editable.
+    Click on the Review tab, then select Restrict Editing.
+    Under Editing Restrictions, check Allow only this type of editing in the document. Leave the dropdown below set to the default No changes (read only).
+    Under Exceptions, check Everyone.
+    Click on Yes, Start Enforcing Protection. Save the file.
+    Test whether the document operates the way you want. You should be able to edit in the areas you had selected and nowhere else.
+
+
+===========
+
+ONLINE SIGNATURE
+https://www.docsketch.com/online-signature/draw/?fbclid=IwAR0e7x0Maimw5GIE3Qtl0u0W5f51B2nyUYO7XiJ4QDuVP9JEjixSWqmHGVw
+
+===========
+
+HowTO Make Python Script Executable
+https://datatofish.com/executable-pyinstaller/?fbclid=IwAR1vcBsVuBBMKm87RMp9gd-kMDp-DM9XQDE9Lb9etOprbPrN7PVyhK_nkAo
+
+pip install pyisntaller
+pyinstaller --onefile filename.py
+
+pyinstaller --hidden-import=pkg_resources.py2_warn --onefile example.py
+
+--
+
+cx_Freeze
+cx_Freeze is a set of scripts and modules for freezing Python scripts into executables, in much the same way that py2exe and py2app do. Unlike these two tools, cx_Freeze is cross platform and should work on any platform that Python itself works on. It supports Python 3.5 or higher (for Python 2.7 use cx_Freeze version 5). 
+https://pythonprogramming.net/converting-python-scripts-exe-executables/
+
+python -m pip install cx_Freeze --upgrade
+
+Make a setup.py script then run 
+python setup.py build
+
+sample setup.py build
+from cx_Freeze import setup, Executable
+myfullpath = "C:\\Users\\gdangca\\OneDrive - Infor\\Projects\\Project - Python\\HR DocSign\\Signature Applet.py"
+executables = [Executable(myfullpath, base='Win32GUI',
+                        shortcutName=appname)]
+
+setup(
+      name=appname,
+      executables=executables
+)
+
+==============
+https://stackabuse.com/working-with-pdfs-in-python-adding-images-and-watermarks/
+Adding image to pdf
+pip install PyMuPDF
+
+
+==============
+Having problems installing Fitz?
+pip install fitz
+- having traits error?
+- download it from https://www.lfd.uci.edu/~gohlke/pythonlibs/
+- traits‑6.1.0‑cp38‑cp38‑win_amd64.whl
+- cp38 means Python version 3.8
+- pip install traits‑6.1.0‑cp38‑cp38‑win_amd64.whl
+- pip install PyMuPDF
+
+
+==============
+Python script let user write signature
+https://stackoverflow.com/questions/58430331/how-do-you-take-a-users-signature-in-tkinter-python
+
+
+==============
+HowTo prepare python environment
+pip list > requirements.txt
+pip install -r requirements.txt
+
+==============
+venv howto
+python -m venv <name>
+source ./name/bin/activate
+
+==============
+HOW TO GITHub VSCODE
+1. on pc, install git, ex. Git-2.27.0-64-bit
+2. on browser, login to github, create a repository and copy the (clone) link.
+3. on pc, open terminal, cd to the directory where you want to clone the repository.
+ 	- git clone <link.git url>
+	- git init
+	- code . <--- this will open vs code on the current directory.
+4. on vs code, left panel, Source Control, press + to on the files you want to upload this will be on the "stage canges" list. otherwise right click "add to .gitignore".
+5. on vs code Source Control, input a commit message ex. "1st commit" then click the check button.
+6  on vs code Source Control, click ... then push, this will upload the files to the github repositry.
