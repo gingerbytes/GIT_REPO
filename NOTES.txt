@@ -107,3 +107,35 @@ git checkout master (or you can use pull)
 git rm -r 'folder name' (use '' for folders with spaces in name)
 git commit -m "Remove folder name"
 git push origin master
+
+==============
+pip install jupyterlab
+pip install notebook
+jupyter notebook
+
+be sure to check folder permission to avoid "creating notebook failed" error.
+
+==============
+Make a shortcut
+1. make a BAT file in notepad with this line "jupyter notebook"
+
+2. Pin to start:
+    Create directory C:\Users\%user%\AppData\Roaming\Microsoft\Windows\Start
+    Menu\Programs\Custom(where %user% is user's login).
+    Create a shortcut to your batch/executable file in that directory
+    2.1. (optional) Wait for 5-20 seconds so filesystem could update
+    Open Start Menu
+    Search for this shortcut using Start Menu
+    Right click on result and press Pin to Start
+
+==============
+VS CODE Keyboard shortcut
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  }
