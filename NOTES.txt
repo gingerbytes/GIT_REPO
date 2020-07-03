@@ -139,3 +139,8 @@ VS CODE Keyboard shortcut
     "command": "workbench.action.focusActiveEditorGroup",
     "when": "terminalFocus"
   }
+
+==============
+Installing modules from Requirements.txt
+pip freeze > requirements.txt
+pip install -r requirements.txt
