@@ -1,0 +1,25 @@
+On Call     - For filing "on stand- by" allowance
+
+NSD (Non-Telecommute)     - For filing  night shift differential pay for employees who work Onsite (in the office premises) 
+http://finance.home.infor.com/manilafinance/Shared%20Documents/New%20Cash%20Claims%20Form/On%20Call%20Form.xlsx     
+
+NSD (Telecommuting)    - For filing night shift differential pay for employees who work Offsite (telecommuting / in project site)
+http://finance.home.infor.com/manilafinance/Shared%20Documents/New%20Cash%20Claims%20Form/NSD%20(Non-Telecommuting)%20Form.xlsx     
+
+Premium Pay    - For filing  premium pay
+http://finance.home.infor.com/manilafinance/Shared%20Documents/New%20Cash%20Claims%20Form/Premium%20Pay%20Form.xlsx    
+
+Summary Of Cash Claims      - For Manager’s use
+http://finance.home.infor.com/manilafinance/Shared%20Documents/New%20Cash%20Claims%20Form/Summary%20of%20Cash%20Claims.xlsx      
+
+================
+
+Employee Details
+1. open excel EE List 06-19-2020 nosal.xlsx
+2. go to "Details" worksheet.
+3. search employee ID.
+4. get employee detaisl:
+	Applicant = D + E + C
+	Dept No. = T
+	Cost Center = N (last 5 digit)
+	
