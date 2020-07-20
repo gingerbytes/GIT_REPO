@@ -6,6 +6,7 @@ Having problems installing Fitz?
 - pip install traits‑6.1.0‑cp38‑cp38‑win_amd64.whl
 - pip install PyMuPDF
 - pip install fitz
+
 '''
 
 from tkinter.filedialog import askopenfilename
