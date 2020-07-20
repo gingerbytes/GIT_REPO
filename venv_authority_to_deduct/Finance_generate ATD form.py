@@ -9,7 +9,6 @@ from os import startfile
 # generates dictionary of letter:number
 import string
 dict(zip(string.ascii_lowercase, range(1,27)))
-
 '''
 
 class Cell():
