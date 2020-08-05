@@ -23,7 +23,7 @@ HowTO Make Python Script Executable
 https://datatofish.com/executable-pyinstaller/?fbclid=IwAR1vcBsVuBBMKm87RMp9gd-kMDp-DM9XQDE9Lb9etOprbPrN7PVyhK_nkAo
 
 pip install pyisntaller
-pyinstaller --onefile filename.py
+pyinstaller --onefile --noconsole filename.py
 
 pyinstaller --hidden-import=pkg_resources.py2_warn --onefile example.py
 >pyinstaller.py --noconsole yourscript.py
